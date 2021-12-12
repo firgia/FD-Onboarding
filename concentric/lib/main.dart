@@ -1,6 +1,7 @@
 import 'package:concentric/card_planet.dart';
 import 'package:concentric_transition/concentric_transition.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +33,7 @@ class Home extends StatelessWidget {
       backgroundColor: const Color.fromRGBO(0, 10, 56, 1),
       titleColor: Colors.pink,
       subtitleColor: Colors.white,
+      background: LottieBuilder.asset("assets/animation/bg-1.json"),
     ),
     CardPlanetData(
       title: "imagine",
@@ -40,6 +42,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.white,
       titleColor: Colors.purple,
       subtitleColor: const Color.fromRGBO(0, 10, 56, 1),
+      background: LottieBuilder.asset("assets/animation/bg-2.json"),
     ),
     CardPlanetData(
       title: "stargaze",
@@ -48,6 +51,7 @@ class Home extends StatelessWidget {
       backgroundColor: const Color.fromRGBO(71, 59, 117, 1),
       titleColor: Colors.yellow,
       subtitleColor: Colors.white,
+      background: LottieBuilder.asset("assets/animation/bg-3.json"),
     ),
   ];
 
