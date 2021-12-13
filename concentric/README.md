@@ -1,16 +1,18 @@
-# concentric
+# Awesome Onboarding
 
-A new Flutter project.
+## [Watch it on YouTube](https://youtu.be/Gco0FL1-D9Q)
 
-## Getting Started
+### Onboarding Screen
 
-This project is a starting point for a Flutter application.
+Creating awesome onboarding in flutter is very easy. In this example project, I'll show you how to implement a Lottie and concentric_transition for your onboarding screen.  
 
-A few resources to get you started if this is your first Flutter project:
+Adding animation background with Lottie animation and creating transition with concentric_transition.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![onboarding - concentric - thumbnail](https://user-images.githubusercontent.com/89120990/145760644-3b18f026-452f-4c88-a8cb-042307f3e01e.png)
+![onboarding - concentric_1](https://user-images.githubusercontent.com/89120990/145760279-dc00da9a-09ce-4aee-a372-ced89d6484d0.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+**Dependencies:**
+
+- [lottie](https://pub.dev/packages/lottie)
+- [concentric_transition](https://pub.dev/packages/concentric_transition)
