@@ -1,3 +1,4 @@
+import 'package:concentric/pages/home_page.dart';
 import 'package:concentric/widget/card_planet.dart';
 import 'package:concentric_transition/concentric_transition.dart';
 import 'package:flutter/material.dart';
@@ -45,6 +46,12 @@ class OnboardingPage extends StatelessWidget {
         itemCount: data.length,
         itemBuilder: (int index, double value) {
           return CardPlanet(data: data[index]);
+        },
+        onFinish: () {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => const HomePage()),
+          );
         },
       ),
     );
